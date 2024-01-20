@@ -324,6 +324,11 @@
       (net 2 "GND") (pinfunction "GND") (pintype "unspecified") (tstamp e50380de-3d42-434e-876e-9de830b4e0e8))
     (pad "14" smd rect (at 2.90195 -1.949999 90) (size 1.3081 0.254) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 12 "/PWM") (pinfunction "PWM") (pintype "unspecified") (tstamp a309da5b-18e3-4a48-adba-d80514029bee))
+    (model "C:/Users/ethan/OneDrive/Documents/KiCad/7.0/3dmodels/TSSOP-14-1EP_4.4x5mm_P0.65mm.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "B.Cu")
