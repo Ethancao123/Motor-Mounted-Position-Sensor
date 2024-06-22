@@ -446,7 +446,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "AS5048B.kicad_pro",
+    "filename": "MT6701.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -484,7 +484,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "AS5048B.step",
+      "step": "MT6701.step",
       "svg": "",
       "vrml": ""
     },
