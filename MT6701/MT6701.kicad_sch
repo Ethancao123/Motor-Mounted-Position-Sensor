@@ -647,139 +647,6 @@
 				)
 			)
 		)
-		(symbol "Diode:SMAJ6.0A"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SMAJ6.0A"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SMA"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-				(at -1.27 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "400W unidirectional Transient Voltage Suppressor, 6.0Vr, SMA(DO-214AC)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "unidirectional diode TVS voltage suppressor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*SMA*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SMAJ6.0A_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SMAJ6.0A_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Jumper:SolderJumper_2_Open"
 			(pin_numbers hide)
 			(pin_names
@@ -1766,6 +1633,12 @@
 		)
 	)
 	(junction
+		(at 130.81 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28434ff6-7b6a-4293-9d84-dd5e199e781a")
+	)
+	(junction
 		(at 176.53 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1802,10 +1675,10 @@
 		(uuid "8d8b8fb1-5b3c-4d0a-a669-e75d9a1f54a7")
 	)
 	(junction
-		(at 106.68 121.92)
+		(at 130.81 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8dc65f60-69f9-43de-adcc-f73272da75c2")
+		(uuid "9669d4fc-723c-4b5d-98e2-67b1f641ee17")
 	)
 	(junction
 		(at 184.15 83.82)
@@ -1818,12 +1691,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc75d70e-0b8a-48dc-b301-b917ca58eb2c")
-	)
-	(junction
-		(at 106.68 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c69ca7f3-bb67-4c50-bca8-43209d3c7d47")
 	)
 	(junction
 		(at 151.13 73.66)
@@ -1840,18 +1707,12 @@
 		(uuid "a386002f-3586-4879-a3f5-7327e46be1d9")
 	)
 	(no_connect
+		(at 163.83 104.14)
+		(uuid "c34da1de-1f5a-45d7-ac49-cc290040f4c6")
+	)
+	(no_connect
 		(at 163.83 99.06)
 		(uuid "d7a4bae6-07c7-4859-bc7a-92c4b966dca9")
-	)
-	(wire
-		(pts
-			(xy 106.68 100.33) (xy 106.68 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "085d9ee9-a36f-4054-8eed-3ed4858eb1d2")
 	)
 	(wire
 		(pts
@@ -1875,7 +1736,17 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 73.66) (xy 134.62 73.66)
+			(xy 130.81 73.66) (xy 134.62 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27586e59-c501-472c-98a4-ec344f3ac2ea")
+	)
+	(wire
+		(pts
+			(xy 121.92 73.66) (xy 130.81 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1885,7 +1756,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 121.92) (xy 151.13 121.92)
+			(xy 121.92 121.92) (xy 130.81 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1945,6 +1816,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 121.92) (xy 151.13 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64c0f777-6ad0-4a2b-b406-d78a243485d7")
+	)
+	(wire
+		(pts
 			(xy 176.53 76.2) (xy 176.53 86.36)
 		)
 		(stroke
@@ -1952,16 +1833,6 @@
 			(type default)
 		)
 		(uuid "67cd51b8-d6cc-4139-a70f-143e8efc6a2d")
-	)
-	(wire
-		(pts
-			(xy 106.68 73.66) (xy 121.92 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7072a713-25e8-4737-8068-de3706be8e1d")
 	)
 	(wire
 		(pts
@@ -2065,16 +1936,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 92.71) (xy 106.68 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb18972f-5f05-4ab2-9896-497661ff32ef")
-	)
-	(wire
-		(pts
 			(xy 166.37 88.9) (xy 200.66 88.9)
 		)
 		(stroke
@@ -2112,16 +1973,6 @@
 			(type default)
 		)
 		(uuid "e886614f-3408-4652-9357-e264050531b1")
-	)
-	(wire
-		(pts
-			(xy 106.68 121.92) (xy 121.92 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb533527-5758-4b55-ae7e-2b7cf1c380e3")
 	)
 	(wire
 		(pts
@@ -2346,7 +2197,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 174.752 72.39 90)
 			(effects
 				(font
@@ -2373,6 +2224,24 @@
 				(hide yes)
 			)
 		)
+		(property "Comment" "5K"
+			(at 176.53 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C25905"
+			(at 176.53 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "800baa91-2c64-497c-b438-cab3d41da6de")
 		)
@@ -2390,7 +2259,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 106.68 73.66 0)
+		(at 130.81 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2399,7 +2268,7 @@
 		(fields_autoplaced yes)
 		(uuid "75a39fed-dac5-48d7-bd2a-5e5cc0048257")
 		(property "Reference" "#FLG02"
-			(at 106.68 71.755 0)
+			(at 130.81 71.755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2408,7 +2277,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 106.68 69.5269 0)
+			(at 130.81 69.5269 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2416,7 +2285,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 73.66 0)
+			(at 130.81 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2425,7 +2294,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 73.66 0)
+			(at 130.81 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2434,7 +2303,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 106.68 73.66 0)
+			(at 130.81 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2456,79 +2325,12 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 163.83 104.14 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8b9d9f06-a07d-4ab9-9e4c-02dfe5d1a13e")
-		(property "Reference" "TP2"
-			(at 168.529 102.9278 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 168.529 105.3521 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 163.83 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 163.83 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "abc1e28b-a29c-4157-9cb2-7ac2956f9562")
-		)
-		(instances
-			(project "MT6701"
-				(path "/bd01764f-1a9f-4444-aa97-0788e62ab384"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
 		(at 163.83 109.22 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8c399ece-023e-4b3a-bacc-212ff8070730")
 		(property "Reference" "TP1"
@@ -2549,7 +2351,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 163.83 114.3 0)
 			(effects
 				(font
@@ -2568,6 +2370,24 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 163.83 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "N/A"
+			(at 163.83 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 163.83 109.22 0)
 			(effects
 				(font
@@ -2655,75 +2475,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SMAJ6.0A")
-		(at 106.68 96.52 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "af586ee9-784b-4964-a3de-265b67d7a726")
-		(property "Reference" "D1"
-			(at 108.712 95.3078 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMAJ6.0A"
-			(at 109.22 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 101.6 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 106.68 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "400W unidirectional Transient Voltage Suppressor, 6.0Vr, SMA(DO-214AC)"
-			(at 106.68 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1aa93c17-7726-4f64-b75e-b39f1a51a608")
-		)
-		(pin "2"
-			(uuid "00e0ca61-42fd-4f22-92e8-6e973cc36a19")
-		)
-		(instances
-			(project "MT6701"
-				(path "/bd01764f-1a9f-4444-aa97-0788e62ab384"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 184.15 72.39 0)
 		(unit 1)
@@ -2751,7 +2502,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 182.372 72.39 90)
 			(effects
 				(font
@@ -2778,6 +2529,24 @@
 				(hide yes)
 			)
 		)
+		(property "Comment" "5K"
+			(at 184.15 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C25905"
+			(at 184.15 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "52b96b74-eda9-41cb-af2a-53457c399902")
 		)
@@ -2795,7 +2564,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 106.68 121.92 180)
+		(at 130.81 121.92 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2804,7 +2573,7 @@
 		(fields_autoplaced yes)
 		(uuid "b653c76d-dce7-4fb9-8d56-647fecb3bd97")
 		(property "Reference" "#FLG01"
-			(at 106.68 123.825 0)
+			(at 130.81 123.825 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2813,7 +2582,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 106.68 126.0531 0)
+			(at 130.81 126.0531 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2821,7 +2590,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 121.92 0)
+			(at 130.81 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2830,7 +2599,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 121.92 0)
+			(at 130.81 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2839,7 +2608,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 106.68 121.92 0)
+			(at 130.81 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2906,6 +2675,24 @@
 			)
 		)
 		(property "Description" "Hall Based Angle Position Encoder Sensor, I2C, SSI, ABZ & UVW interfaces, 3.3..5V supply, QFN-16"
+			(at 151.13 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "MT6701QT"
+			(at 151.13 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2913974"
 			(at 151.13 96.52 0)
 			(effects
 				(font
@@ -3002,7 +2789,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 122.8852 100.33 0)
 			(effects
 				(font
@@ -3021,6 +2808,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 121.92 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "100nF"
+			(at 121.92 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C1525"
 			(at 121.92 96.52 0)
 			(effects
 				(font
@@ -3051,7 +2856,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ce30bbb2-4c87-4de9-8137-7d0c8a4ff3fb")
 		(property "Reference" "JP1"
 			(at 167.64 76.2 90)
@@ -3071,7 +2876,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 166.37 77.47 0)
 			(effects
 				(font
@@ -3090,6 +2895,24 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 166.37 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "N/A"
+			(at 166.37 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 166.37 77.47 0)
 			(effects
 				(font
@@ -3160,6 +2983,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 205.74 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "JST_GH_SM05B"
+			(at 205.74 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" " C189896"
 			(at 205.74 86.36 0)
 			(effects
 				(font

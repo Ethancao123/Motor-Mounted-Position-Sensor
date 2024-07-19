@@ -431,7 +431,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -446,7 +446,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "MT6701.kicad_pro",
+    "filename": "AS5048B.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -481,10 +481,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "JLCPCB/Gerbers/",
-      "pos_files": "JLCPCB/",
+      "plot": "",
+      "pos_files": "",
       "specctra_dsn": "",
-      "step": "MT6701.step",
+      "step": "AS5048B.step",
       "svg": "",
       "vrml": ""
     },
@@ -504,7 +504,7 @@
     },
     "bom_presets": [],
     "bom_settings": {
-      "exclude_dnp": true,
+      "exclude_dnp": false,
       "fields_ordered": [
         {
           "group_by": false,
@@ -552,7 +552,7 @@
           "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -570,8 +570,8 @@
       "filter_string": "",
       "group_symbols": true,
       "name": "",
-      "sort_asc": false,
-      "sort_field": "Value"
+      "sort_asc": true,
+      "sort_field": "Comment"
     },
     "connection_grid_size": 50.0,
     "drawing": {
